@@ -8,17 +8,11 @@
 import UIKit
 
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    var imagePicker = UIImagePickerController()
-
+class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
-        imagePicker.delegate = self
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func photoLibrary(_ sender: Any) {
-    }
-    
 }
 

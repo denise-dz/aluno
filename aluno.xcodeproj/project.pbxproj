@@ -22,6 +22,7 @@
 		715C851028AE8E20000576BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974E28AD62F900074DB5 /* Assets.xcassets */; };
 		715C851128AE8E21000576BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974E28AD62F900074DB5 /* Assets.xcassets */; };
 		719D974D28AD62ED00074DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974C28AD62ED00074DB5 /* Assets.xcassets */; };
+		BDC2FB8C28AEC25C00A86142 /* makePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC2FB8B28AEC25C00A86142 /* makePostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		715012CD28AC1669004D493C /* alunoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alunoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		719D974C28AD62ED00074DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
 		719D974E28AD62F900074DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC2FB8B28AEC25C00A86142 /* makePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makePostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				715012A928AC1667004D493C /* SceneDelegate.swift */,
 				715012AB28AC1667004D493C /* ViewController.swift */,
 				715012AD28AC1667004D493C /* Main.storyboard */,
+				BDC2FB8B28AEC25C00A86142 /* makePostViewController.swift */,
 				719D974E28AD62F900074DB5 /* Assets.xcassets */,
 				715012B528AC1669004D493C /* LaunchScreen.storyboard */,
 				715012B828AC1669004D493C /* Info.plist */,
@@ -277,6 +280,7 @@
 				715012B228AC1667004D493C /* aluno.xcdatamodeld in Sources */,
 				715012A828AC1667004D493C /* AppDelegate.swift in Sources */,
 				715012AA28AC1667004D493C /* SceneDelegate.swift in Sources */,
+				BDC2FB8C28AEC25C00A86142 /* makePostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
