@@ -12,11 +12,16 @@
 		715012AC28AC1667004D493C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715012AB28AC1667004D493C /* ViewController.swift */; };
 		715012AF28AC1667004D493C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715012AD28AC1667004D493C /* Main.storyboard */; };
 		715012B228AC1667004D493C /* aluno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 715012B028AC1667004D493C /* aluno.xcdatamodeld */; };
-		715012B428AC1669004D493C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715012B328AC1669004D493C /* Assets.xcassets */; };
 		715012B728AC1669004D493C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715012B528AC1669004D493C /* LaunchScreen.storyboard */; };
 		715012C228AC1669004D493C /* alunoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715012C128AC1669004D493C /* alunoTests.swift */; };
 		715012CC28AC1669004D493C /* alunoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715012CB28AC1669004D493C /* alunoUITests.swift */; };
 		715012CE28AC1669004D493C /* alunoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715012CD28AC1669004D493C /* alunoUITestsLaunchTests.swift */; };
+		715C850D28AE8D04000576BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715012AD28AC1667004D493C /* Main.storyboard */; };
+		715C850E28AE8D05000576BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715012AD28AC1667004D493C /* Main.storyboard */; };
+		715C850F28AE8E1F000576BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974E28AD62F900074DB5 /* Assets.xcassets */; };
+		715C851028AE8E20000576BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974E28AD62F900074DB5 /* Assets.xcassets */; };
+		715C851128AE8E21000576BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974E28AD62F900074DB5 /* Assets.xcassets */; };
+		719D974D28AD62ED00074DB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719D974C28AD62ED00074DB5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +48,6 @@
 		715012AB28AC1667004D493C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		715012AE28AC1667004D493C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		715012B128AC1667004D493C /* aluno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = aluno.xcdatamodel; sourceTree = "<group>"; };
-		715012B328AC1669004D493C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715012B628AC1669004D493C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		715012B828AC1669004D493C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		715012BD28AC1669004D493C /* alunoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alunoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,8 @@
 		715012C728AC1669004D493C /* alunoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alunoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715012CB28AC1669004D493C /* alunoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alunoUITests.swift; sourceTree = "<group>"; };
 		715012CD28AC1669004D493C /* alunoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alunoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		719D974C28AD62ED00074DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Assets.xcassets"; sourceTree = "<group>"; };
+		719D974E28AD62F900074DB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,7 @@
 				715012A928AC1667004D493C /* SceneDelegate.swift */,
 				715012AB28AC1667004D493C /* ViewController.swift */,
 				715012AD28AC1667004D493C /* Main.storyboard */,
-				715012B328AC1669004D493C /* Assets.xcassets */,
+				719D974E28AD62F900074DB5 /* Assets.xcassets */,
 				715012B528AC1669004D493C /* LaunchScreen.storyboard */,
 				715012B828AC1669004D493C /* Info.plist */,
 				715012B028AC1667004D493C /* aluno.xcdatamodeld */,
@@ -126,6 +132,7 @@
 			children = (
 				715012CB28AC1669004D493C /* alunoUITests.swift */,
 				715012CD28AC1669004D493C /* alunoUITestsLaunchTests.swift */,
+				719D974C28AD62ED00074DB5 /* Assets.xcassets */,
 			);
 			path = alunoUITests;
 			sourceTree = "<group>";
@@ -235,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				715012B728AC1669004D493C /* LaunchScreen.storyboard in Resources */,
-				715012B428AC1669004D493C /* Assets.xcassets in Resources */,
+				715C850F28AE8E1F000576BA /* Assets.xcassets in Resources */,
 				715012AF28AC1667004D493C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +251,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715C851028AE8E20000576BA /* Assets.xcassets in Resources */,
+				715C850D28AE8D04000576BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				719D974D28AD62ED00074DB5 /* Assets.xcassets in Resources */,
+				715C851128AE8E21000576BA /* Assets.xcassets in Resources */,
+				715C850E28AE8D05000576BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
