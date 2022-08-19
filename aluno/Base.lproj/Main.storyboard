@@ -614,9 +614,7 @@
                                     <color key="baseForegroundColor" red="0.15294117647058825" green="0.18431372549019609" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="ueu-IA-BgL" kind="popoverPresentation" popoverAnchorView="SvM-3O-EH1" id="8xs-lm-77r">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="ueu-IA-BgL" kind="show" id="aU8-3j-udE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQm-Tc-jUf">
@@ -680,7 +678,7 @@
             <objects>
                 <viewController id="ueu-IA-BgL" customClass="makePostViewController" customModule="aluno" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="79R-Xf-Wlh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Make a Post" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FZx-ke-UrZ">
@@ -1204,7 +1202,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8xs-lm-77r"/>
+        <segue reference="aU8-3j-udE"/>
         <segue reference="3EN-El-bhu"/>
         <segue reference="aM5-ev-j4M"/>
     </inferredMetricsTieBreakers>
